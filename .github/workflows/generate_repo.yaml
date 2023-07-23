@@ -14,20 +14,20 @@ jobs:
     name: Generate Repo
     runs-on: windows-latest
     steps:
-      - name: Extract branch
+      - name: Extract Branch
         shell: bash
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
         id: extract_branch
       - uses: actions/checkout@v1
       - name: Run Powershell Script
         run: .\generate-repo.ps1
-      - name: Commit files
+      - name: Commit Files
         continue-on-error: true
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Regenerate Repo" -a
-      - name: Push changes
+      - name: Push Changes
         continue-on-error: true
         uses: ad-m/github-push-action@master
         with:
