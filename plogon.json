@@ -26,11 +26,11 @@
     "IconUrl": "https://git.camora.dev/asriel/craftimizer/raw/branch/main/icon.png",
     "IsHide": "False",
     "IsTestingExclusive": true,
-    "AssemblyVersion": "ga-create",
-    "LastUpdated": 1690086034,
+    "AssemblyVersion": "1.2.0.0",
+    "LastUpdated": 1690087254,
     "DownloadCount": 0,
-    "DownloadLinkInstall": "https://github.com/WorkingRobot/craftimizer/releases/download/ga-create/latest.zip",
-    "DownloadLinkTesting": "https://github.com/WorkingRobot/craftimizer/releases/download/ga-create/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/WorkingRobot/craftimizer/releases/download/ga-create/latest.zip"
+    "DownloadLinkInstall": "https://github.com/WorkingRobot/craftimizer/releases/download/1.2.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/WorkingRobot/craftimizer/releases/download/1.2.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/WorkingRobot/craftimizer/releases/download/1.2.0.0/latest.zip"
   }
 ]
