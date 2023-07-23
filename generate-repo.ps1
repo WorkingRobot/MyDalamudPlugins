@@ -63,7 +63,7 @@ Set-Content -Path "plogon.json" -Value $pluginJson
 
 function GetAssetByType($assets, $type) {
   foreach ($asset in $assets) {
-    if ($type -q $asset.content_type) {
+    if ($type -eq $asset.content_type) {
       return $asset
     }
   }
