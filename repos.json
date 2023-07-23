@@ -1,10 +1,6 @@
 [
   {
     "username": "WorkingRobot",
-    "pluginName": "Craftimizer",
-    "repo": "craftimizer",
-    "branch": "main",
-    "configFolder": "Craftimizer",
-    "isTesting": true
+    "repo": "craftimizer"
   }
 ]
