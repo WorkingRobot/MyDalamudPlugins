@@ -13,3 +13,4 @@ https://raw.githubusercontent.com/WorkingRobot/MyDalamudPlugins/main/plogon.json
 
 ## My Plugins
 Craftimizer - https://github.com/WorkingRobot/craftimizer
+ItemIcons - https://github.com/WorkingRobot/ItemIcons
