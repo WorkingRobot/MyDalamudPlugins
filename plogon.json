@@ -37,5 +37,39 @@
     "DownloadLinkInstall": "https://github.com/WorkingRobot/craftimizer/releases/download/1.2.1.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/WorkingRobot/craftimizer/releases/download/1.2.1.0/latest.zip",
     "DownloadLinkTesting": "https://github.com/WorkingRobot/craftimizer/releases/download/1.2.1.0/latest.zip"
+  },
+  {
+    "Author": "Asriel",
+    "Name": "Item Icons",
+    "InternalName": "ItemIcons",
+    "AssemblyVersion": "0.1.0.0",
+    "Description": "Display custom icons for items for easier inventory mangement.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/WorkingRobot/ItemIcons",
+    "Tags": [
+      "icon",
+      "item",
+      "job",
+      "inventory",
+      "class"
+    ],
+    "CategoryTags": [
+      "UI"
+    ],
+    "DalamudApiLevel": 8,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://git.camora.dev/asriel/ItemIcons/raw/branch/main/icon.png",
+    "Punchline": "Works perfectly out of the box! Use /ii to configure.",
+    "AcceptsFeedback": true,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1694649016,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.0/latest.zip"
   }
 ]
