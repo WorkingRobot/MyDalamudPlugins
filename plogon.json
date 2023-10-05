@@ -42,7 +42,7 @@
     "Author": "Asriel",
     "Name": "Item Icons",
     "InternalName": "ItemIcons",
-    "AssemblyVersion": "0.1.0.0",
+    "AssemblyVersion": "0.1.0.1",
     "Description": "Display custom icons for items for easier inventory mangement.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/WorkingRobot/ItemIcons",
@@ -56,7 +56,7 @@
     "CategoryTags": [
       "UI"
     ],
-    "DalamudApiLevel": 8,
+    "DalamudApiLevel": 9,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -66,11 +66,11 @@
     "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1694649016,
-    "DownloadCount": 8,
-    "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.0/latest.zip"
+    "LastUpdate": 1696497248,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.1/latest.zip"
   },
   {
     "Author": "Asriel Camora & daemitus",
@@ -92,7 +92,7 @@
     "IsHide": false,
     "IsTestingExclusive": false,
     "LastUpdate": 1696492405,
-    "DownloadCount": 0,
+    "DownloadCount": 2,
     "DownloadLinkInstall": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.0/latest.zip",
     "DownloadLinkUpdate": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.0/latest.zip",
     "DownloadLinkTesting": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.0/latest.zip"
