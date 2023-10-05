@@ -15,3 +15,4 @@ https://raw.githubusercontent.com/WorkingRobot/MyDalamudPlugins/main/plogon.json
 
 - [Craftimizer](https://github.com/WorkingRobot/craftimizer)  
 - [ItemIcons](https://github.com/WorkingRobot/ItemIcons)
+- [SomethingNeedDoing](https://github.com/WorkingRobot/SomethingNeedDoing)
