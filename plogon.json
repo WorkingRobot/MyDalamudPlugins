@@ -1,9 +1,9 @@
 [
   {
-    "Author": "Asriel",
+    "Author": "Asriel Camora",
     "Name": "Craftimizer",
     "InternalName": "Craftimizer",
-    "AssemblyVersion": "1.2.1.0",
+    "AssemblyVersion": "1.9.0.0",
     "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/WorkingRobot/craftimizer",
@@ -22,7 +22,7 @@
     "CategoryTags": [
       "Jobs"
     ],
-    "DalamudApiLevel": 8,
+    "DalamudApiLevel": 9,
     "LoadRequiredState": 0,
     "LoadSync": false,
     "CanUnloadAsync": false,
@@ -32,11 +32,11 @@
     "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1692720194,
-    "DownloadCount": 6,
-    "DownloadLinkInstall": "https://github.com/WorkingRobot/craftimizer/releases/download/1.2.1.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/WorkingRobot/craftimizer/releases/download/1.2.1.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/WorkingRobot/craftimizer/releases/download/1.2.1.0/latest.zip"
+    "LastUpdate": 1697539862,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.0.0/latest.zip"
   },
   {
     "Author": "Asriel",
