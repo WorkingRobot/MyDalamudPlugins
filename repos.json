@@ -1,7 +1,8 @@
 [
   {
     "username": "WorkingRobot",
-    "repo": "craftimizer"
+    "repo": "craftimizer",
+    "isOfficial": true
   },
   {
     "username": "WorkingRobot",

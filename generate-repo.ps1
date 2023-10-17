@@ -12,6 +12,7 @@ function ExitWithCode($code) {
 }
 
 $pluginsOut = @()
+$officialPluginsOut = @()
 
 $pluginList = Get-Content '.\repos.json' | ConvertFrom-Json
 
@@ -65,10 +66,16 @@ foreach ($plugin in $pluginList) {
 
   # Add to the plugin array.
   $pluginsOut += $config
+
+  if ($plugin.isOfficial) {
+    $officialPluginsOut += $config
+  }
 }
 
 # Convert plugins to JSON
 $pluginJson = ConvertTo-Json $pluginsOut
+$officialPluginJson = ConvertTo-Json $officialPluginsOut
 
 # Save repo to file
 Set-Content -Path "plogon.json" -Value $pluginJson
+Set-Content -Path "goodplogon.json" -Value $officialPluginJson
