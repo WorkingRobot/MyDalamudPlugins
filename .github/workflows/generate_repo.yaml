@@ -26,7 +26,8 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git commit -m "Regenerate Repo" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>" -a
+          git add -A
+          git commit -m "Regenerate Repo" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
       - name: Push Changes
         continue-on-error: true
         uses: ad-m/github-push-action@master
