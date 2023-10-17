@@ -1,0 +1,41 @@
+[
+  {
+    "Author": "Asriel Camora",
+    "Name": "Craftimizer",
+    "InternalName": "Craftimizer",
+    "AssemblyVersion": "1.9.0.0",
+    "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/WorkingRobot/craftimizer",
+    "Tags": [
+      "crafting",
+      "doh",
+      "craft",
+      "macro",
+      "solver",
+      "generator",
+      "generate",
+      "simulate",
+      "sim",
+      "simulator"
+    ],
+    "CategoryTags": [
+      "Jobs"
+    ],
+    "DalamudApiLevel": 9,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://git.camora.dev/asriel/craftimizer/raw/branch/main/icon.png",
+    "Punchline": "Simulate crafts and create computer-assisted macros from the comfort of your own game",
+    "AcceptsFeedback": true,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1697539862,
+    "DownloadCount": 0,
+    "DownloadLinkInstall": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.0.0/latest.zip"
+  }
+]
