@@ -6,6 +6,28 @@ function GetAssetByType($assets, $type) {
   }
 }
 
+$officalRepoData = Invoke-WebRequest -Uri "https://kamori.goats.dev/Plugin/PluginMaster"
+$officalRepoJson = ConvertFrom-Json $officalRepoData.content
+
+function GetOfficialDownloadCount($internalName) {
+  foreach ($plugin in $officalRepoJson) {
+    if ($internalName -eq $plugin.InternalName) {
+      $plugin.DownloadCount
+    }
+  }
+}
+
+function GetGithubDownloadCount($username, $repo) {
+  $data = Invoke-WebRequest -Uri "https://api.github.com/repos/$($username)/$($repo)/releases?per_page=100"
+  $json = ConvertFrom-Json $data.content
+  $downloadCount = 0
+  foreach ($release in $json) {
+    $downloadAsset = GetAssetByType $release.assets "application/zip"
+    $downloadCount += $downloadAsset.download_count
+  }
+  $downloadCount
+}
+
 function ExitWithCode($code) {
   $host.SetShouldExit($code)
   exit $code
@@ -39,9 +61,6 @@ foreach ($plugin in $pluginList) {
     ExitWithCode 1
   }
 
-  $downloadCount = $downloadAsset.download_count
-  $downloadUrl = $downloadAsset.browser_download_url
-
   # Get timestamp for the release.
   $releaseTimestamp = [Int](New-TimeSpan -Start (Get-Date "01/01/1970") -End ([DateTime]$json.published_at)).TotalSeconds
 
@@ -53,6 +72,15 @@ foreach ($plugin in $pluginList) {
   if ($null -eq $config) {
     Write-Error "Config for plugin $($plugin) is null!"
     ExitWithCode 1
+  }
+
+  $downloadUrl = $downloadAsset.browser_download_url
+  $downloadCount = GetGithubDownloadCount $username $repo
+  if ($plugin.isOfficial) {
+    $officialDownloadCount = GetOfficialDownloadCount $config.InternalName
+    if ($officialDownloadCount -ne $null) {
+      $downloadCount += $officialDownloadCount
+    }
   }
 
   # Add additional properties to the config.
