@@ -19,5 +19,5 @@ https://raw.githubusercontent.com/WorkingRobot/MyDalamudPlugins/main/goodplogon.
 ## My Plugins
 
 - [Craftimizer](https://github.com/WorkingRobot/craftimizer) (Official)
-- [ItemIcons](https://github.com/WorkingRobot/ItemIcons)
+- [ItemIcons](https://github.com/WorkingRobot/ItemIcons) (Official)
 - [SomethingNeedDoing](https://github.com/WorkingRobot/SomethingNeedDoing)
