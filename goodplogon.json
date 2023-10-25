@@ -3,7 +3,7 @@
     "Author": "Asriel",
     "Name": "Craftimizer",
     "InternalName": "Craftimizer",
-    "AssemblyVersion": "1.9.0.3",
+    "AssemblyVersion": "1.9.1.0",
     "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/WorkingRobot/craftimizer",
@@ -32,10 +32,44 @@
     "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1698141123,
-    "DownloadCount": 1379,
-    "DownloadLinkInstall": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.0.3/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.0.3/latest.zip",
-    "DownloadLinkTesting": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.0.3/latest.zip"
+    "LastUpdate": 1698264917,
+    "DownloadCount": 1582,
+    "DownloadLinkInstall": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.1.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.1.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.1.0/latest.zip"
+  },
+  {
+    "Author": "Asriel",
+    "Name": "Item Icons",
+    "InternalName": "ItemIcons",
+    "AssemblyVersion": "0.1.0.1",
+    "Description": "Display custom icons for items for easier inventory mangement.",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/WorkingRobot/ItemIcons",
+    "Tags": [
+      "icon",
+      "item",
+      "job",
+      "inventory",
+      "class"
+    ],
+    "CategoryTags": [
+      "UI"
+    ],
+    "DalamudApiLevel": 9,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "IconUrl": "https://git.camora.dev/asriel/ItemIcons/raw/branch/main/icon.png",
+    "Punchline": "Works perfectly out of the box! Use /ii to configure.",
+    "AcceptsFeedback": true,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1696497248,
+    "DownloadCount": 48,
+    "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.1.0.1/latest.zip"
   }
 ]
