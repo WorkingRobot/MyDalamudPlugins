@@ -12,15 +12,22 @@ on:
 jobs:
   generate:
     name: Generate Repo
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
-      - name: Extract Branch
-        shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-        id: extract_branch
-      - uses: actions/checkout@v1
-      - name: Run Powershell Script
-        run: .\generate-repo.ps1
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 'pypy3.10'
+          cache: 'pip'
+      - name: Install Python Dependencies
+        run: pip install -r requirements.txt
+      - name: Run Python Script
+        run: python generate-repo.py
       - name: Commit Files
         continue-on-error: true
         run: |
@@ -33,4 +40,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ steps.extracted_branch.outputs.branch }}
+          branch: main

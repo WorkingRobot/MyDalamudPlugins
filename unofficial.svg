@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128"
+   height="128"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="unofficial.svg"
+   inkscape:export-filename="uncertified.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.4492188"
+     inkscape:cx="-7.7575757"
+     inkscape:cy="161.07177"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2520" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2153">
+      <g
+         id="g2158"
+         transform="matrix(0.91661133,-0.91661133,0.91661133,0.91661133,-14.639754,102.6865)">
+        <g
+           id="g2463"
+           transform="rotate(45,64.000002,21.794)">
+          <g
+             id="g2520">
+            <g
+               id="g2525"
+               transform="matrix(0.74546248,-0.74546248,0.74546248,0.74546248,-0.12930568,53.436415)">
+              <rect
+                 style="fill:#d40000;fill-opacity:0.7;stroke-width:3.42733"
+                 id="rect1216"
+                 width="113.33395"
+                 height="24.179111"
+                 x="7.5694742"
+                 y="9.700201"
+                 ry="10.871627"
+                 rx="12.005687" />
+              <text
+                 xml:space="preserve"
+                 style="font-size:16.9044px;fill:#ffffff;stroke-width:1.05652"
+                 x="12.709015"
+                 y="27.707918"
+                 id="text290"><tspan
+                   id="tspan288"
+                   x="12.709015"
+                   y="27.707918"
+                   style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:16.9044px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Heavy';fill:#ffffff;stroke-width:1.05652"
+                   sodipodi:role="line">UNVERIFIED</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
