@@ -73,10 +73,10 @@
     "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.1/latest.zip"
   },
   {
-    "Author": "Asriel Camora & daemitus",
+    "Author": "Asriel & daemitus",
     "Name": "Something Need Doing",
     "InternalName": "SomethingNeedDoing",
-    "AssemblyVersion": "1.5.0.0",
+    "AssemblyVersion": "1.5.0.1",
     "Description": "A hard-working peon that crafts what you tell him to. An all-in-one sythesizing solution.",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/WorkingRobot/SomethingNeedDoing",
@@ -85,16 +85,18 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "ImageUrls": [],
-    "IconUrl": "https://github.com/WorkingRobot/SomethingNeedDoing/raw/master/res/icon.png",
+    "ImageUrls": [
+      "https://raw.githubusercontent.com/WorkingRobot/SomethingNeedDoing/main/res/game.png"
+    ],
+    "IconUrl": "https://raw.githubusercontent.com/WorkingRobot/SomethingNeedDoing/main/res/icon.png",
     "Punchline": "Work work.",
     "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1696492405,
+    "LastUpdate": 1698446316,
     "DownloadCount": 634,
-    "DownloadLinkInstall": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.1/latest.zip"
   }
 ]
