@@ -66,10 +66,10 @@
     "AcceptsFeedback": true,
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1698386638,
+    "LastUpdate": 1698392270,
     "DownloadCount": 108,
-    "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.0/latest.zip"
+    "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.1/latest.zip"
   }
 ]
