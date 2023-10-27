@@ -1,11 +1,11 @@
 ## Installation
 ```
-https://raw.githubusercontent.com/WorkingRobot/MyDalamudPlugins/main/plogon.json
+https://plogon.camora.dev
 ```
 
 Official/Main Repo Plugins:
 ```
-https://raw.githubusercontent.com/WorkingRobot/MyDalamudPlugins/main/goodplogon.json
+https://plogon.camora.dev/official
 ```
 
 * Copy the link above
