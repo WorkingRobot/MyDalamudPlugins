@@ -33,9 +33,43 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1698910715,
-        "DownloadCount": 1924,
+        "DownloadCount": 1925,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.1.0/latestUnofficial.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.1.0/latestUnofficial.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.1.0/latestUnofficial.zip"
+    },
+    {
+        "Author": "Asriel",
+        "Name": "Item Icons (Unofficial)",
+        "InternalName": "ItemIconsUnofficial",
+        "AssemblyVersion": "0.2.0.1",
+        "Description": "Display custom icons for items for easier inventory mangement.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/WorkingRobot/ItemIcons",
+        "Tags": [
+            "icon",
+            "item",
+            "job",
+            "inventory",
+            "class"
+        ],
+        "CategoryTags": [
+            "UI"
+        ],
+        "DalamudApiLevel": 9,
+        "LoadRequiredState": 0,
+        "LoadSync": false,
+        "CanUnloadAsync": false,
+        "LoadPriority": 0,
+        "IconUrl": "https://raw.githubusercontent.com/WorkingRobot/MyDalamudPlugins/main/icons/ItemIconsUnofficial.png",
+        "Punchline": "Unofficial/uncertified build of Item Icons. Works perfectly out of the box! Use /ii to configure.",
+        "AcceptsFeedback": true,
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "LastUpdate": 1698911185,
+        "DownloadCount": 293,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.1/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.1/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.1/latestUnofficial.zip"
     }
 ]
