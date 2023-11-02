@@ -6,8 +6,12 @@ from datetime import datetime
 if not os.path.exists("icons"):
     os.makedirs("icons")
 
+print("Loading repo list")
+
 with open("repos.json", "r") as f:
     plugins = json.load(f)
+
+print("Loading official repo")
 
 official_repo = requests.get("https://kamori.goats.dev/Plugin/PluginMaster").json()
 
@@ -47,14 +51,22 @@ plogons = []
 good_plogons = []
 
 for plugin in plugins:
+    print(f"Loading repo {plugin['username']}/{plugin['repo']}")
+
     release_info = requests.get(f"https://api.github.com/repos/{plugin['username']}/{plugin['repo']}/releases/latest").json()
+
+    print(f"Loading release data")
 
     release_timestamp = int(datetime.fromisoformat(release_info['published_at'].replace('Z','+00:00')).timestamp())
     zip_asset = get_asset_by_type(release_info['assets'], "application/zip")
     config_asset = get_asset_by_type(release_info['assets'], "application/json")
 
+    print(f"Loading manifest")
+
     zip_download_url = zip_asset['browser_download_url']
     config_data = requests.get(config_asset['browser_download_url']).json()
+
+    print(f"Loading download counts")
 
     download_count = get_github_download_count(plugin['username'], plugin['repo'])
     if plugin.get('isOfficial'):
@@ -75,9 +87,10 @@ for plugin in plugins:
     if plugin.get('isOfficial'):
         config_data['Punchline'] = f"Unofficial/uncertified build of {config_data['Name']}. {config_data['Punchline']}"
         config_data['Name'] += ' (Unofficial)'
-        config_data['InternalName'] += 'Unofficial'
-        config_data['IconUrl'] = create_icon(icon_url, config_data['InternalName'], True)
+        config_data['IconUrl'] = create_icon(icon_url, f"{config_data['InternalName']}Unofficial", True)
         good_plogons.append(config_data.copy())
+
+print("Writing repo jsons")
 
 with open('plogon.json', 'w') as f:
     json.dump(plogons, f, indent=4)
