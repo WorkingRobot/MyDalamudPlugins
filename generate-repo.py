@@ -15,21 +15,28 @@ print("Loading official repo")
 
 official_repo = requests.get("https://kamori.goats.dev/Plugin/PluginMaster").json()
 
+def get_asset_by_name(assets, name):
+    for asset in assets:
+        if asset['name'] == name:
+            return asset
+    return None
+
 def get_asset_by_type(assets, mime_type):
     for asset in assets:
         if asset['content_type'] == mime_type:
             return asset
-    raise Exception("Could not find asset with valid mime type")
+    return None
 
 def get_github_download_count(username, repo):
     releases = requests.get(f"https://api.github.com/repos/{username}/{repo}/releases?per_page=100").json()
     download_count = 0
     for release in releases:
-        try:
-            asset = get_asset_by_type(release['assets'], "application/zip")
+        asset = get_asset_by_name(release['assets'], "latest.zip")
+        if asset:
             download_count += asset['download_count']
-        except:
-            pass
+        asset = get_asset_by_name(release['assets'], "latestUnofficial.zip")
+        if asset:
+            download_count += asset['download_count']
     return download_count
 
 def get_official_download_count(internal_name):
@@ -58,8 +65,11 @@ for plugin in plugins:
     print(f"Loading release data")
 
     release_timestamp = int(datetime.fromisoformat(release_info['published_at'].replace('Z','+00:00')).timestamp())
-    zip_asset = get_asset_by_type(release_info['assets'], "application/zip")
+    zip_asset = get_asset_by_name(release_info['assets'], "latest.zip")
     config_asset = get_asset_by_type(release_info['assets'], "application/json")
+
+    if zip_asset is None or config_asset is None:
+        raise Exception("No release zip or config found")
 
     print(f"Loading manifest")
 
@@ -69,8 +79,7 @@ for plugin in plugins:
     print(f"Loading download counts")
 
     download_count = get_github_download_count(plugin['username'], plugin['repo'])
-    if plugin.get('isOfficial'):
-        download_count += get_official_download_count(config_data['InternalName'])
+    download_count += get_official_download_count(config_data['InternalName'])
 
     config_data['IsHide'] = False
     config_data['IsTestingExclusive'] = False
@@ -84,10 +93,16 @@ for plugin in plugins:
 
     plogons.append(config_data.copy())
 
-    if plugin.get('isOfficial'):
+    unofficial_zip_asset = get_asset_by_name(release_info['assets'], "latestUnofficial.zip")
+    if unofficial_zip_asset is not None:
+        zip_download_url = unofficial_zip_asset['browser_download_url']
+
         config_data['Punchline'] = f"Unofficial/uncertified build of {config_data['Name']}. {config_data['Punchline']}"
         config_data['Name'] += ' (Unofficial)'
         config_data['IconUrl'] = create_icon(icon_url, f"{config_data['InternalName']}Unofficial", True)
+        config_data['DownloadLinkInstall'] = zip_download_url
+        config_data['DownloadLinkUpdate'] = zip_download_url
+        config_data['DownloadLinkTesting'] = zip_download_url
         good_plogons.append(config_data.copy())
 
 print("Writing repo jsons")
