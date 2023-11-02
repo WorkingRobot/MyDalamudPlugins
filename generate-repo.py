@@ -99,7 +99,8 @@ for plugin in plugins:
 
         config_data['Punchline'] = f"Unofficial/uncertified build of {config_data['Name']}. {config_data['Punchline']}"
         config_data['Name'] += ' (Unofficial)'
-        config_data['IconUrl'] = create_icon(icon_url, f"{config_data['InternalName']}Unofficial", True)
+        config_data['InternalName'] += 'Unofficial'
+        config_data['IconUrl'] = create_icon(icon_url, config_data['InternalName'], True)
         config_data['DownloadLinkInstall'] = zip_download_url
         config_data['DownloadLinkUpdate'] = zip_download_url
         config_data['DownloadLinkTesting'] = zip_download_url
