@@ -1,1 +1,41 @@
-[]
+[
+    {
+        "Author": "Asriel",
+        "Name": "Craftimizer (Unofficial)",
+        "InternalName": "Craftimizer",
+        "AssemblyVersion": "1.9.1.0",
+        "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/WorkingRobot/craftimizer",
+        "Tags": [
+            "crafting",
+            "doh",
+            "craft",
+            "macro",
+            "solver",
+            "generator",
+            "generate",
+            "simulate",
+            "sim",
+            "simulator"
+        ],
+        "CategoryTags": [
+            "Jobs"
+        ],
+        "DalamudApiLevel": 9,
+        "LoadRequiredState": 0,
+        "LoadSync": false,
+        "CanUnloadAsync": false,
+        "LoadPriority": 0,
+        "IconUrl": "https://raw.githubusercontent.com/WorkingRobot/MyDalamudPlugins/main/icons/CraftimizerUnofficial.png",
+        "Punchline": "Unofficial/uncertified build of Craftimizer. Simulate crafts and create computer-assisted macros from the comfort of your own game",
+        "AcceptsFeedback": true,
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "LastUpdate": 1698901473,
+        "DownloadCount": 1924,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.1.0/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.1.0/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/craftimizer/releases/download/1.9.1.0/latestUnofficial.zip"
+    }
+]
