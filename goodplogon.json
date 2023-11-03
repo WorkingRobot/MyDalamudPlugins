@@ -42,7 +42,7 @@
         "Author": "Asriel",
         "Name": "Item Icons (Unofficial)",
         "InternalName": "ItemIconsUnofficial",
-        "AssemblyVersion": "0.2.0.1",
+        "AssemblyVersion": "0.3.0.0",
         "Description": "Display custom icons for items for easier inventory mangement.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/WorkingRobot/ItemIcons",
@@ -66,10 +66,10 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1698911185,
+        "LastUpdate": 1699006923,
         "DownloadCount": 314,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.1/latestUnofficial.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.1/latestUnofficial.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.2.0.1/latestUnofficial.zip"
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.3.0.0/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.3.0.0/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.3.0.0/latestUnofficial.zip"
     }
 ]
