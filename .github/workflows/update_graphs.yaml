@@ -1,0 +1,39 @@
+name: Generate Repo
+
+on:
+  schedule:
+    - cron: '15,45 * * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    name: Generate Repo
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 'pypy3.10'
+          cache: 'pip-graphs'
+      - name: Install Python Dependencies
+        run: pip install -r requirements-graphs.txt
+      - name: Run Python Script
+        run: python gen-graphs.py
+      - name: Commit Files
+        continue-on-error: true
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -A
+          git commit -m "Regenerate Graphs" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+      - name: Push Changes
+        continue-on-error: true
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
