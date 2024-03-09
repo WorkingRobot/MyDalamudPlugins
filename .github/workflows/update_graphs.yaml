@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate:
-    name: Generate Repo
+  graphs:
+    name: Update Download Graphs
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
