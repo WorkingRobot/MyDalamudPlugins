@@ -1,4 +1,4 @@
-name: Generate Repo
+name: Update Download Graphs
 
 on:
   schedule:
