@@ -21,3 +21,5 @@ https://plogon.camora.dev/official
 - [Craftimizer](https://github.com/WorkingRobot/craftimizer) (Official)
 - [ItemIcons](https://github.com/WorkingRobot/ItemIcons) (Official)
 - [SomethingNeedDoing](https://github.com/WorkingRobot/SomethingNeedDoing)
+
+![Daily downloads counts of plugins over the last month](./downloads.svg)

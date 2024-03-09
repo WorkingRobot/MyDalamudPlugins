@@ -64,7 +64,9 @@ formatter = mdates.ConciseDateFormatter(locator)
 ax.xaxis.set_major_locator(locator)
 ax.xaxis.set_major_formatter(formatter)
 ax.plot(plot_dates, plot_counts, label=plugin_names)
+
 ax.legend()
+ax.set_title("Daily Download Count")
 
 mplcyberpunk.add_underglow()
 
