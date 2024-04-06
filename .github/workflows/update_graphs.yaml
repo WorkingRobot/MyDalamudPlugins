@@ -2,7 +2,7 @@ name: Update Download Graphs
 
 on:
   schedule:
-    - cron: '15,45 * * * *'
+    - cron: '37 */6 * * *'
   workflow_dispatch:
 
 jobs:
