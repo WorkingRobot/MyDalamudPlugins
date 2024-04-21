@@ -37,12 +37,6 @@ jobs:
           python -m venv ./.venv
           source ./.venv/bin/activate
           python -m pip install -r requirements.txt
-      - name: Install Python Repo Project
-        shell: bash
-        run: |
-          source ./.venv/bin/activate
-          python -m pip install -U -e ./python
-          
       - name: Run Python Script
         run: python generate-repo.py
       - name: Commit Files
