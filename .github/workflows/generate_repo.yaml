@@ -39,7 +39,9 @@ jobs:
           source ./.venv/bin/activate
           python -m pip install -r requirements.txt
       - name: Run Python Script
-        run: python generate-repo.py
+        run: |
+          source ./.venv/bin/activate
+          python generate-repo.py
       - name: Commit Files
         continue-on-error: true
         run: |
