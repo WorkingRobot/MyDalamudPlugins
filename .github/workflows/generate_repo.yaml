@@ -20,16 +20,17 @@ jobs:
           persist-credentials: false
       - name: Setup Python
         uses: actions/setup-python@v5
+        id: setup-python
         with:
           python-version: 'pypy3.10'
       - name: Cache Python Environment
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cache-venv
         with:
           path: ./.venv/
-          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
+          key: ${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
           restore-keys: |
-            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
+            ${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-venv-
       - name: Install Python Dependencies
         if: steps.cache-venv.outputs.cache-hit != 'true'
         shell: bash
