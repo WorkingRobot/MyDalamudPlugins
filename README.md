@@ -19,6 +19,7 @@ https://plogon.camora.dev/official
 ## My Plugins
 
 - [Craftimizer](https://github.com/WorkingRobot/craftimizer) (Official)
+- [Waitingway](https://github.com/WorkingRobot/Waitingway) (Official)
 - [ItemIcons](https://github.com/WorkingRobot/ItemIcons) (Official)
 - [SomethingNeedDoing](https://github.com/WorkingRobot/SomethingNeedDoing)
 
