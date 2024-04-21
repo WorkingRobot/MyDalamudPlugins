@@ -14,15 +14,25 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
-          fetch-depth: 0
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: 'pypy3.10'
-          cache: 'pip'
-          cache-dependency-path: 'requirements.txt'
+      - name: Cache Python Environment
+        uses: actions/cache@v3
+        id: cache-venv
+        with:
+          path: ./.venv/
+          key: ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup_python.outputs.python-version }}-venv-
       - name: Install Python Dependencies
-        run: pip install -r requirements.txt
+        if: steps.cache-venv.outputs.cache-hit != 'true'
+        shell: bash
+        run: |
+          python -m venv ./.venv
+          source ./.venv/bin/activate
+          python -m pip install -r requirements.txt
       - name: Run Python Script
         run: python gen-graphs.py
       - name: Commit Files
