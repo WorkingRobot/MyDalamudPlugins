@@ -38,16 +38,16 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1711179163,
-        "DownloadCount": 57161,
+        "DownloadCount": 57197,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/craftimizer/releases/download/2.4.0.0/latestUnofficial.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/craftimizer/releases/download/2.4.0.0/latestUnofficial.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/craftimizer/releases/download/2.4.0.0/latestUnofficial.zip"
     },
     {
-        "Author": "Asriel, Lumi, NPittinger",
+        "Author": "Asriel",
         "Name": "Waitingway (Unofficial)",
         "InternalName": "Waitingway.DalamudUnofficial",
-        "AssemblyVersion": "2.0.1.0",
+        "AssemblyVersion": "2.0.2.0",
         "Description": "Contributes and utilizes crowdsourced login queue information for the benefit of everyone.\n\nCurrent features include queue time estimates and notifications via Discord, so you can know when you make it\ninto the game, as well as anonymously collecting and reporting statistics about your login queue times to crowdsource\ninformation about FFXIV server load. This information will be publicly available in the future; check the Discord for updates!\n\nDiscord URL: https://waiting.camora.dev/discord",
         "ApplicableVersion": "any",
         "RepoUrl": "https://waiting.camora.dev",
@@ -74,11 +74,11 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1713864078,
-        "DownloadCount": 18009,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.0.1/latestUnofficial.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.0.1/latestUnofficial.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.0.1/latestUnofficial.zip"
+        "LastUpdate": 1714944023,
+        "DownloadCount": 18026,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.0.2/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.0.2/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.0.2/latestUnofficial.zip"
     },
     {
         "Author": "Asriel",
