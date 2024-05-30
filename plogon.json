@@ -3,7 +3,7 @@
         "Author": "Asriel",
         "Name": "Craftimizer",
         "InternalName": "Craftimizer",
-        "AssemblyVersion": "2.4.0.0",
+        "AssemblyVersion": "2.4.1.0",
         "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started!",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/WorkingRobot/craftimizer",
@@ -37,11 +37,11 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1711179163,
+        "LastUpdate": 1717046686,
         "DownloadCount": 111912,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.0.0/latest.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.0.0/latest.zip"
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.1.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.1.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.1.0/latest.zip"
     },
     {
         "Author": "Asriel",
@@ -136,7 +136,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1698446316,
-        "DownloadCount": 3405,
+        "DownloadCount": 3407,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.1/latest.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.1/latest.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.1/latest.zip"
