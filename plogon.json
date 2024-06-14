@@ -3,7 +3,7 @@
         "Author": "Asriel",
         "Name": "Craftimizer",
         "InternalName": "Craftimizer",
-        "AssemblyVersion": "2.4.1.0",
+        "AssemblyVersion": "2.4.2.0",
         "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started!",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/WorkingRobot/craftimizer",
@@ -37,11 +37,11 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1717046686,
-        "DownloadCount": 196422,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.1.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.1.0/latest.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.1.0/latest.zip"
+        "LastUpdate": 1718397122,
+        "DownloadCount": 202811,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.2.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.2.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.2.0/latest.zip"
     },
     {
         "Author": "Asriel",
@@ -78,7 +78,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1718258185,
-        "DownloadCount": 20806,
+        "DownloadCount": 21591,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.1.0/latest.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.1.0/latest.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.1.0/latest.zip"
@@ -112,7 +112,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1700693751,
-        "DownloadCount": 2267,
+        "DownloadCount": 2270,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.4.0.1/latest.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.4.0.1/latest.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.4.0.1/latest.zip"
