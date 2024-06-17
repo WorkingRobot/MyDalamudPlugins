@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 import mplcyberpunk
 import requests
 
-from matplotlib import rc as mrc
-
 from datetime import date
 from datetime import datetime
 from datetime import timedelta
@@ -57,6 +55,7 @@ for date, repo in sorted(data.items()):
 
 plt.style.use("cyberpunk")
 plt.rcParams["font.family"] = "revert_back"
+plt.rcParams["svg.hashsalt"] = "Graphs!"
 
 fig, ax = plt.subplots(layout='constrained', figsize=(6,4))
 locator = mdates.AutoDateLocator(minticks=5, maxticks=10)
@@ -70,4 +69,4 @@ ax.set_title("Daily Download Count")
 
 mplcyberpunk.add_underglow()
 
-plt.savefig('downloads.svg')
+plt.savefig('downloads.svg', metadata={'Date': None})
