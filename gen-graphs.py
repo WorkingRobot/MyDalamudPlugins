@@ -54,7 +54,6 @@ for date, repo in sorted(data.items()):
     yesterday_counts = counts
 
 plt.style.use("cyberpunk")
-plt.rcParams["font.family"] = "revert_back"
 plt.rcParams["svg.hashsalt"] = "Graphs!"
 
 fig, ax = plt.subplots(layout='constrained', figsize=(6,4))
