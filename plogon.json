@@ -38,7 +38,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1720019474,
-        "DownloadCount": 291012,
+        "DownloadCount": 291014,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.9.1/latest.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.9.1/latest.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.9.1/latest.zip"
@@ -121,11 +121,11 @@
         "Author": "Asriel & daemitus",
         "Name": "Something Need Doing",
         "InternalName": "SomethingNeedDoing",
-        "AssemblyVersion": "1.5.0.1",
+        "AssemblyVersion": "1.5.1.0",
         "Description": "A hard-working peon that crafts what you tell him to. An all-in-one sythesizing solution.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/WorkingRobot/SomethingNeedDoing",
-        "DalamudApiLevel": 9,
+        "DalamudApiLevel": 10,
         "LoadRequiredState": 0,
         "LoadSync": false,
         "CanUnloadAsync": false,
@@ -138,10 +138,10 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1698446316,
+        "LastUpdate": 1720021607,
         "DownloadCount": 3572,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.1/latest.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.0.1/latest.zip"
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.1.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.1.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/SomethingNeedDoing/releases/download/1.5.1.0/latest.zip"
     }
 ]
