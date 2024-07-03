@@ -3,7 +3,7 @@
         "Author": "Asriel",
         "Name": "Craftimizer (Unofficial)",
         "InternalName": "CraftimizerUnofficial",
-        "AssemblyVersion": "2.4.9.0",
+        "AssemblyVersion": "2.4.9.1",
         "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started!",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/WorkingRobot/Craftimizer",
@@ -37,11 +37,11 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1719877516,
-        "DownloadCount": 289648,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.9.0/latestUnofficial.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.9.0/latestUnofficial.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.9.0/latestUnofficial.zip"
+        "LastUpdate": 1720019474,
+        "DownloadCount": 290972,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.9.1/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.9.1/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.4.9.1/latestUnofficial.zip"
     },
     {
         "Author": "Asriel",
@@ -78,7 +78,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1719900490,
-        "DownloadCount": 24790,
+        "DownloadCount": 24848,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.1.2/latestUnofficial.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.1.2/latestUnofficial.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.1.2/latestUnofficial.zip"
