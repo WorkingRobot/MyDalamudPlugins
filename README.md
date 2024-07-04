@@ -3,9 +3,9 @@
 https://plogon.camora.dev
 ```
 
-Official/Main Repo Plugins:
+Unofficial/Unverified Main Repo Plugins:
 ```
-https://plogon.camora.dev/official
+https://plogon.camora.dev/unofficial
 ```
 
 * Copy the link above
@@ -18,7 +18,7 @@ https://plogon.camora.dev/official
 
 ## My Plugins
 
-- [Craftimizer](https://github.com/WorkingRobot/craftimizer) (Official)
+- [Craftimizer](https://github.com/WorkingRobot/Craftimizer) (Official)
 - [Waitingway](https://github.com/WorkingRobot/Waitingway) (Official)
 - [ItemIcons](https://github.com/WorkingRobot/ItemIcons) (Official)
 - [SomethingNeedDoing](https://github.com/WorkingRobot/SomethingNeedDoing)
