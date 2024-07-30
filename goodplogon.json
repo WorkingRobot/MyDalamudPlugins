@@ -38,7 +38,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1722222139,
-        "DownloadCount": 400568,
+        "DownloadCount": 417056,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.0.0/latestUnofficial.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.0.0/latestUnofficial.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.0.0/latestUnofficial.zip"
@@ -78,7 +78,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1719900490,
-        "DownloadCount": 29520,
+        "DownloadCount": 29546,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.1.2/latestUnofficial.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.1.2/latestUnofficial.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.1.2/latestUnofficial.zip"
@@ -87,7 +87,7 @@
         "Author": "Asriel",
         "Name": "Item Icons (Unofficial)",
         "InternalName": "ItemIconsUnofficial",
-        "AssemblyVersion": "0.4.0.1",
+        "AssemblyVersion": "0.5.0.0",
         "Description": "Display custom icons for items for easier inventory mangement.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/WorkingRobot/ItemIcons",
@@ -101,7 +101,7 @@
         "CategoryTags": [
             "UI"
         ],
-        "DalamudApiLevel": 9,
+        "DalamudApiLevel": 10,
         "LoadRequiredState": 0,
         "LoadSync": false,
         "CanUnloadAsync": false,
@@ -111,10 +111,10 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1700693751,
+        "LastUpdate": 1722319746,
         "DownloadCount": 2310,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.4.0.1/latestUnofficial.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.4.0.1/latestUnofficial.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.4.0.1/latestUnofficial.zip"
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.5.0.0/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.5.0.0/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.5.0.0/latestUnofficial.zip"
     }
 ]
