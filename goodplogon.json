@@ -3,7 +3,7 @@
         "Author": "Asriel",
         "Name": "Craftimizer (Unofficial)",
         "InternalName": "CraftimizerUnofficial",
-        "AssemblyVersion": "2.5.0.0",
+        "AssemblyVersion": "2.5.1.0",
         "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started!",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/WorkingRobot/Craftimizer",
@@ -37,11 +37,11 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1722222139,
-        "DownloadCount": 427714,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.0.0/latestUnofficial.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.0.0/latestUnofficial.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.0.0/latestUnofficial.zip"
+        "LastUpdate": 1722456471,
+        "DownloadCount": 427715,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.1.0/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.1.0/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.1.0/latestUnofficial.zip"
     },
     {
         "Author": "Asriel",
