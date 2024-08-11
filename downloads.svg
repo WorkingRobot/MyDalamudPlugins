@@ -549,7 +549,7 @@ L 428.99976 21.980182
    </g>
    <g id="PolyCollection_1">
     <defs>
-     <path id="m2614e7a93a" d="M 56.071241 -39.812178 
+     <path id="m1ad8a2f216" d="M 56.071241 -39.812178 
 L 56.071241 -74.213836 
 L 67.528338 -75.019135 
 L 78.985436 -70.124002 
@@ -581,7 +581,7 @@ L 365.41287 -199.20713
 L 376.869967 -85.162286 
 L 388.327064 -86.266179 
 L 399.784162 -82.022524 
-L 411.241259 -39.821227 
+L 411.241259 -54.11755 
 L 411.241259 -39.812178 
 L 411.241259 -39.812178 
 L 399.784162 -39.812178 
@@ -619,12 +619,12 @@ z
 " style="stroke: #08f7fe; stroke-opacity: 0.1"/>
     </defs>
     <g clip-path="url(#p299424a925)">
-     <use xlink:href="#m2614e7a93a" x="0" y="288" style="fill: #08f7fe; fill-opacity: 0.1; stroke: #08f7fe; stroke-opacity: 0.1"/>
+     <use xlink:href="#m1ad8a2f216" x="0" y="288" style="fill: #08f7fe; fill-opacity: 0.1; stroke: #08f7fe; stroke-opacity: 0.1"/>
     </g>
    </g>
    <g id="PolyCollection_2">
     <defs>
-     <path id="m1b1cb48af6" d="M 56.071241 -39.812178 
+     <path id="m62be4c749a" d="M 56.071241 -39.812178 
 L 56.071241 -39.812178 
 L 67.528338 -39.821227 
 L 78.985436 -39.812178 
@@ -656,7 +656,7 @@ L 365.41287 -39.91171
 L 376.869967 -39.938855 
 L 388.327064 -40.011241 
 L 399.784162 -39.956951 
-L 411.241259 -39.812178 
+L 411.241259 -39.866468 
 L 411.241259 -39.812178 
 L 411.241259 -39.812178 
 L 399.784162 -39.812178 
@@ -694,12 +694,12 @@ z
 " style="stroke: #fe53bb; stroke-opacity: 0.1"/>
     </defs>
     <g clip-path="url(#p299424a925)">
-     <use xlink:href="#m1b1cb48af6" x="0" y="288" style="fill: #fe53bb; fill-opacity: 0.1; stroke: #fe53bb; stroke-opacity: 0.1"/>
+     <use xlink:href="#m62be4c749a" x="0" y="288" style="fill: #fe53bb; fill-opacity: 0.1; stroke: #fe53bb; stroke-opacity: 0.1"/>
     </g>
    </g>
    <g id="PolyCollection_3">
     <defs>
-     <path id="m3eda6deb11" d="M 56.071241 -39.812178 
+     <path id="me5e7ce49cf" d="M 56.071241 -39.812178 
 L 56.071241 -40.183159 
 L 67.528338 -40.020289 
 L 78.985436 -40.047434 
@@ -731,7 +731,7 @@ L 365.41287 -39.884565
 L 376.869967 -39.91171 
 L 388.327064 -39.920758 
 L 399.784162 -39.91171 
-L 411.241259 -39.830275 
+L 411.241259 -39.866468 
 L 411.241259 -39.812178 
 L 411.241259 -39.812178 
 L 399.784162 -39.812178 
@@ -769,12 +769,12 @@ z
 " style="stroke: #f5d300; stroke-opacity: 0.1"/>
     </defs>
     <g clip-path="url(#p299424a925)">
-     <use xlink:href="#m3eda6deb11" x="0" y="288" style="fill: #f5d300; fill-opacity: 0.1; stroke: #f5d300; stroke-opacity: 0.1"/>
+     <use xlink:href="#me5e7ce49cf" x="0" y="288" style="fill: #f5d300; fill-opacity: 0.1; stroke: #f5d300; stroke-opacity: 0.1"/>
     </g>
    </g>
    <g id="PolyCollection_4">
     <defs>
-     <path id="mdacf836763" d="M 56.071241 -39.812178 
+     <path id="m719b8debb7" d="M 56.071241 -39.812178 
 L 56.071241 -40.97941 
 L 67.528338 -40.988458 
 L 78.985436 -40.726057 
@@ -806,7 +806,7 @@ L 365.41287 -40.047434
 L 376.869967 -39.975048 
 L 388.327064 -40.264594 
 L 399.784162 -40.355077 
-L 411.241259 -39.812178 
+L 411.241259 -40.002193 
 L 411.241259 -39.812178 
 L 411.241259 -39.812178 
 L 399.784162 -39.812178 
@@ -844,7 +844,7 @@ z
 " style="stroke: #00ff41; stroke-opacity: 0.1"/>
     </defs>
     <g clip-path="url(#p299424a925)">
-     <use xlink:href="#mdacf836763" x="0" y="288" style="fill: #00ff41; fill-opacity: 0.1; stroke: #00ff41; stroke-opacity: 0.1"/>
+     <use xlink:href="#m719b8debb7" x="0" y="288" style="fill: #00ff41; fill-opacity: 0.1; stroke: #00ff41; stroke-opacity: 0.1"/>
     </g>
    </g>
    <g id="line2d_29">
@@ -879,7 +879,7 @@ L 365.41287 88.79287
 L 376.869967 202.837714 
 L 388.327064 201.733821 
 L 399.784162 205.977476 
-L 411.241259 248.178773 
+L 411.241259 233.88245 
 " clip-path="url(#p299424a925)" style="fill: none; stroke: #08f7fe; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_30">
@@ -914,7 +914,7 @@ L 365.41287 248.08829
 L 376.869967 248.061145 
 L 388.327064 247.988759 
 L 399.784162 248.043049 
-L 411.241259 248.187822 
+L 411.241259 248.133532 
 " clip-path="url(#p299424a925)" style="fill: none; stroke: #fe53bb; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_31">
@@ -949,7 +949,7 @@ L 365.41287 248.115435
 L 376.869967 248.08829 
 L 388.327064 248.079242 
 L 399.784162 248.08829 
-L 411.241259 248.169725 
+L 411.241259 248.133532 
 " clip-path="url(#p299424a925)" style="fill: none; stroke: #f5d300; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_32">
@@ -984,7 +984,7 @@ L 365.41287 247.952566
 L 376.869967 248.024952 
 L 388.327064 247.735406 
 L 399.784162 247.644923 
-L 411.241259 248.187822 
+L 411.241259 247.997807 
 " clip-path="url(#p299424a925)" style="fill: none; stroke: #00ff41; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
    <g id="patch_3">
