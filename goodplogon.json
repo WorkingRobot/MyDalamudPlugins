@@ -3,7 +3,7 @@
         "Author": "Asriel",
         "Name": "Craftimizer (Unofficial)",
         "InternalName": "CraftimizerUnofficial",
-        "AssemblyVersion": "2.5.2.0",
+        "AssemblyVersion": "2.5.3.0",
         "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started!",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/WorkingRobot/Craftimizer",
@@ -22,7 +22,7 @@
         "CategoryTags": [
             "Jobs"
         ],
-        "DalamudApiLevel": 10,
+        "DalamudApiLevel": 11,
         "LoadRequiredState": 0,
         "LoadSync": false,
         "CanUnloadAsync": false,
@@ -37,11 +37,11 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1722974187,
-        "DownloadCount": 834392,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.2.0/latestUnofficial.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.2.0/latestUnofficial.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.2.0/latestUnofficial.zip"
+        "LastUpdate": 1732439677,
+        "DownloadCount": 834774,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.3.0/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.3.0/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.5.3.0/latestUnofficial.zip"
     },
     {
         "Author": "Asriel",
@@ -78,7 +78,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1732392127,
-        "DownloadCount": 40032,
+        "DownloadCount": 40244,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.2/latestUnofficial.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.2/latestUnofficial.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.2/latestUnofficial.zip"
