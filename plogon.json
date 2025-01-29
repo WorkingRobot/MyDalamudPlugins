@@ -38,7 +38,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1733211505,
-        "DownloadCount": 1095893,
+        "DownloadCount": 1099115,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.6.1.0/latest.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.6.1.0/latest.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.6.1.0/latest.zip"
@@ -77,11 +77,11 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1737800612,
-        "DownloadCount": 44164,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.14/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.14/latest.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.14/latest.zip"
+        "LastUpdate": 1738181462,
+        "DownloadCount": 44187,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.15/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.15/latest.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.15/latest.zip"
     },
     {
         "Author": "Asriel",
