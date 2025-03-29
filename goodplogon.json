@@ -38,7 +38,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1743221505,
-        "DownloadCount": 1274954,
+        "DownloadCount": 1274965,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.7.0.0/latestUnofficial.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.7.0.0/latestUnofficial.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.7.0.0/latestUnofficial.zip"
@@ -47,12 +47,15 @@
         "Author": "Asriel",
         "Name": "Waitingway (Unofficial)",
         "InternalName": "Waitingway.DalamudUnofficial",
-        "AssemblyVersion": "2.2.97.0",
-        "Description": "Contributes and utilizes crowdsourced login queue information for the benefit of everyone.\n\nCurrent features include queue time estimates and notifications via Discord, so you can know when you make it\ninto the game, as well as anonymously collecting and reporting statistics about your login queue times to crowdsource\ninformation about FFXIV server load. Join our Discord for more information!\n\nDiscord URL: https://waiting.camora.dev/discord",
+        "AssemblyVersion": "2.3.0.0",
+        "Description": "Contributes and utilizes crowdsourced login, duty, and roulette queue information for the benefit of everyone.\n\nCurrent features include queue time estimates and notifications via Discord, so you can know when you make it into the game, as well as anonymously collecting and reporting statistics about your queue times to crowdsource information about FFXIV server load and activity. Join our Discord for more information!\n\nDiscord URL: https://waiting.camora.dev/discord",
         "ApplicableVersion": "any",
         "RepoUrl": "https://waiting.camora.dev",
         "Tags": [
             "queue",
+            "duty",
+            "roulette",
+            "party",
             "login",
             "lobby",
             "time",
@@ -67,7 +70,7 @@
             "Utility",
             "Other"
         ],
-        "DalamudApiLevel": 11,
+        "DalamudApiLevel": 12,
         "LoadRequiredState": 0,
         "LoadSync": false,
         "CanUnloadAsync": false,
@@ -77,11 +80,11 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1740740243,
+        "LastUpdate": 1743227187,
         "DownloadCount": 52109,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.97/latestUnofficial.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.97/latestUnofficial.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.2.97/latestUnofficial.zip"
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.3.0/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.3.0/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.3.0/latestUnofficial.zip"
     },
     {
         "Author": "Asriel",
