@@ -38,7 +38,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1743221505,
-        "DownloadCount": 1275382,
+        "DownloadCount": 1275554,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.7.0.0/latestUnofficial.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.7.0.0/latestUnofficial.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.7.0.0/latestUnofficial.zip"
@@ -81,7 +81,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1743227187,
-        "DownloadCount": 52117,
+        "DownloadCount": 52141,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.3.0/latestUnofficial.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.3.0/latestUnofficial.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.3.0/latestUnofficial.zip"
@@ -90,7 +90,7 @@
         "Author": "Asriel",
         "Name": "Item Icons (Unofficial)",
         "InternalName": "ItemIconsUnofficial",
-        "AssemblyVersion": "0.9.0.0",
+        "AssemblyVersion": "0.9.0.1",
         "Description": "Display custom icons for items for easier inventory mangement.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/WorkingRobot/ItemIcons",
@@ -114,10 +114,10 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1743229865,
-        "DownloadCount": 3306,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.9.0.0/latestUnofficial.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.9.0.0/latestUnofficial.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.9.0.0/latestUnofficial.zip"
+        "LastUpdate": 1743231407,
+        "DownloadCount": 3307,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.9.0.1/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.9.0.1/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.9.0.1/latestUnofficial.zip"
     }
 ]
