@@ -512,7 +512,7 @@ L 428.99976 35.342352
    </g>
    <g id="FillBetweenPolyCollection_1">
     <defs>
-     <path id="m420055b537" d="M 56.071241 -39.812178 
+     <path id="mb1ae57fb39" d="M 56.071241 -39.812178 
 L 56.071241 -52.870248 
 L 67.528338 -88.255807 
 L 78.985436 -68.993292 
@@ -544,7 +544,7 @@ L 365.41287 -73.19699
 L 376.869967 -74.761404 
 L 388.327064 -64.576749 
 L 399.784162 -102.410031 
-L 411.241259 -39.939886 
+L 411.241259 -254.764818 
 L 411.241259 -39.812178 
 L 411.241259 -39.812178 
 L 399.784162 -39.812178 
@@ -582,12 +582,12 @@ z
 " style="stroke: #08f7fe; stroke-opacity: 0.1"/>
     </defs>
     <g clip-path="url(#pc22333fd52)">
-     <use xlink:href="#m420055b537" x="0" y="288" style="fill: #08f7fe; fill-opacity: 0.1; stroke: #08f7fe; stroke-opacity: 0.1"/>
+     <use xlink:href="#mb1ae57fb39" x="0" y="288" style="fill: #08f7fe; fill-opacity: 0.1; stroke: #08f7fe; stroke-opacity: 0.1"/>
     </g>
    </g>
    <g id="FillBetweenPolyCollection_2">
     <defs>
-     <path id="md114167dc4" d="M 56.071241 -39.812178 
+     <path id="mc7e80971c5" d="M 56.071241 -39.812178 
 L 56.071241 -39.812178 
 L 67.528338 -39.812178 
 L 78.985436 -39.812178 
@@ -619,7 +619,7 @@ L 365.41287 -39.844105
 L 376.869967 -39.844105 
 L 388.327064 -39.822821 
 L 399.784162 -39.886674 
-L 411.241259 -39.844105 
+L 411.241259 -39.886674 
 L 411.241259 -39.812178 
 L 411.241259 -39.812178 
 L 399.784162 -39.812178 
@@ -657,7 +657,7 @@ z
 " style="stroke: #fe53bb; stroke-opacity: 0.1"/>
     </defs>
     <g clip-path="url(#pc22333fd52)">
-     <use xlink:href="#md114167dc4" x="0" y="288" style="fill: #fe53bb; fill-opacity: 0.1; stroke: #fe53bb; stroke-opacity: 0.1"/>
+     <use xlink:href="#mc7e80971c5" x="0" y="288" style="fill: #fe53bb; fill-opacity: 0.1; stroke: #fe53bb; stroke-opacity: 0.1"/>
     </g>
    </g>
    <g id="FillBetweenPolyCollection_3">
@@ -737,7 +737,7 @@ z
    </g>
    <g id="FillBetweenPolyCollection_4">
     <defs>
-     <path id="mf3b1fef25e" d="M 56.071241 -39.812178 
+     <path id="m9effce511e" d="M 56.071241 -39.812178 
 L 56.071241 -39.812178 
 L 67.528338 -39.812178 
 L 78.985436 -39.812178 
@@ -769,7 +769,7 @@ L 365.41287 -40.142089
 L 376.869967 -40.110162 
 L 388.327064 -40.227227 
 L 399.784162 -40.631633 
-L 411.241259 -39.812178 
+L 411.241259 -40.205943 
 L 411.241259 -39.812178 
 L 411.241259 -39.812178 
 L 399.784162 -39.812178 
@@ -807,7 +807,7 @@ z
 " style="stroke: #00ff41; stroke-opacity: 0.1"/>
     </defs>
     <g clip-path="url(#pc22333fd52)">
-     <use xlink:href="#mf3b1fef25e" x="0" y="288" style="fill: #00ff41; fill-opacity: 0.1; stroke: #00ff41; stroke-opacity: 0.1"/>
+     <use xlink:href="#m9effce511e" x="0" y="288" style="fill: #00ff41; fill-opacity: 0.1; stroke: #00ff41; stroke-opacity: 0.1"/>
     </g>
    </g>
    <g id="line2d_29">
@@ -842,7 +842,7 @@ L 365.41287 214.80301
 L 376.869967 213.238596 
 L 388.327064 223.423251 
 L 399.784162 185.589969 
-L 411.241259 248.060114 
+L 411.241259 33.235182 
 " clip-path="url(#pc22333fd52)" style="fill: none; stroke: #08f7fe; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_30">
@@ -877,7 +877,7 @@ L 365.41287 248.155895
 L 376.869967 248.155895 
 L 388.327064 248.177179 
 L 399.784162 248.113326 
-L 411.241259 248.155895 
+L 411.241259 248.113326 
 " clip-path="url(#pc22333fd52)" style="fill: none; stroke: #fe53bb; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_31">
@@ -947,7 +947,7 @@ L 365.41287 247.857911
 L 376.869967 247.889838 
 L 388.327064 247.772773 
 L 399.784162 247.368367 
-L 411.241259 248.187822 
+L 411.241259 247.794057 
 " clip-path="url(#pc22333fd52)" style="fill: none; stroke: #00ff41; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
    <g id="patch_3">
@@ -1235,14 +1235,14 @@ z
    </g>
    <g id="legend_1">
     <g id="line2d_33">
-     <path d="M 282.498198 31.216802 
-L 292.498198 31.216802 
-L 302.498198 31.216802 
+     <path d="M 164.905469 31.216802 
+L 174.905469 31.216802 
+L 184.905469 31.216802 
 " style="fill: none; stroke: #08f7fe; stroke-width: 1.5; stroke-linecap: round"/>
     </g>
     <g id="text_17">
      <!-- Craftimizer -->
-     <g style="fill: #e6e6e6" transform="translate(310.498198 34.716802) scale(0.1 -0.1)">
+     <g style="fill: #e6e6e6" transform="translate(192.905469 34.716802) scale(0.1 -0.1)">
       <defs>
        <path id="DejaVuSans-66" d="M 2375 4863 
 L 2375 4384 
@@ -1348,14 +1348,14 @@ z
      </g>
     </g>
     <g id="line2d_34">
-     <path d="M 282.498198 45.894927 
-L 292.498198 45.894927 
-L 302.498198 45.894927 
+     <path d="M 164.905469 45.894927 
+L 174.905469 45.894927 
+L 184.905469 45.894927 
 " style="fill: none; stroke: #fe53bb; stroke-width: 1.5; stroke-linecap: round"/>
     </g>
     <g id="text_18">
      <!-- ItemIcons -->
-     <g style="fill: #e6e6e6" transform="translate(310.498198 49.394927) scale(0.1 -0.1)">
+     <g style="fill: #e6e6e6" transform="translate(192.905469 49.394927) scale(0.1 -0.1)">
       <defs>
        <path id="DejaVuSans-49" d="M 628 4666 
 L 1259 4666 
@@ -1429,14 +1429,14 @@ z
      </g>
     </g>
     <g id="line2d_35">
-     <path d="M 282.498198 60.573052 
-L 292.498198 60.573052 
-L 302.498198 60.573052 
+     <path d="M 164.905469 60.573052 
+L 174.905469 60.573052 
+L 184.905469 60.573052 
 " style="fill: none; stroke: #f5d300; stroke-width: 1.5; stroke-linecap: round"/>
     </g>
     <g id="text_19">
      <!-- SomethingNeedDoing -->
-     <g style="fill: #e6e6e6" transform="translate(310.498198 64.073052) scale(0.1 -0.1)">
+     <g style="fill: #e6e6e6" transform="translate(192.905469 64.073052) scale(0.1 -0.1)">
       <defs>
        <path id="DejaVuSans-53" d="M 3425 4513 
 L 3425 3897 
@@ -1557,14 +1557,14 @@ z
      </g>
     </g>
     <g id="line2d_36">
-     <path d="M 282.498198 75.251177 
-L 292.498198 75.251177 
-L 302.498198 75.251177 
+     <path d="M 164.905469 75.251177 
+L 174.905469 75.251177 
+L 184.905469 75.251177 
 " style="fill: none; stroke: #00ff41; stroke-width: 1.5; stroke-linecap: round"/>
     </g>
     <g id="text_20">
      <!-- Waitingway.Dalamud -->
-     <g style="fill: #e6e6e6" transform="translate(310.498198 78.751177) scale(0.1 -0.1)">
+     <g style="fill: #e6e6e6" transform="translate(192.905469 78.751177) scale(0.1 -0.1)">
       <defs>
        <path id="DejaVuSans-57" d="M 213 4666 
 L 850 4666 
