@@ -80,11 +80,11 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1766410354,
+        "LastUpdate": 1767682903,
         "DownloadCount": 61361,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.0/latest.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.0/latest.zip"
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.1/latest.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.1/latest.zip"
     },
     {
         "Author": "Asriel",
