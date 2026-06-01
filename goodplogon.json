@@ -3,7 +3,7 @@
         "Author": "Asriel",
         "Name": "Craftimizer (Unofficial)",
         "InternalName": "CraftimizerUnofficial",
-        "AssemblyVersion": "2.9.1.1",
+        "AssemblyVersion": "2.10.0.0",
         "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started!",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/WorkingRobot/Craftimizer",
@@ -22,7 +22,7 @@
         "CategoryTags": [
             "Jobs"
         ],
-        "DalamudApiLevel": 14,
+        "DalamudApiLevel": 15,
         "LoadRequiredState": 0,
         "LoadSync": false,
         "CanUnloadAsync": false,
@@ -37,17 +37,17 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1767462786,
-        "DownloadCount": 2385367,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.9.1.1/latestUnofficial.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.9.1.1/latestUnofficial.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.9.1.1/latestUnofficial.zip"
+        "LastUpdate": 1780335896,
+        "DownloadCount": 2466668,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.10.0.0/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.10.0.0/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.10.0.0/latestUnofficial.zip"
     },
     {
         "Author": "Asriel",
         "Name": "Waitingway (Unofficial)",
         "InternalName": "Waitingway.DalamudUnofficial",
-        "AssemblyVersion": "2.4.0.0",
+        "AssemblyVersion": "2.4.2.0",
         "Description": "Contributes and utilizes crowdsourced login, duty, and roulette queue information for the benefit of everyone.\n\nCurrent features include queue time estimates and notifications via Discord, so you can know when you make it into the game, as well as anonymously collecting and reporting statistics about your queue times to crowdsource information about FFXIV server load and activity. Join our Discord for more information!\n\nDiscord URL: https://waiting.camora.dev/discord",
         "ApplicableVersion": "any",
         "RepoUrl": "https://waiting.camora.dev",
@@ -70,7 +70,7 @@
             "Utility",
             "Other"
         ],
-        "DalamudApiLevel": 14,
+        "DalamudApiLevel": 15,
         "LoadRequiredState": 0,
         "LoadSync": false,
         "CanUnloadAsync": false,
@@ -80,11 +80,11 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1767682903,
-        "DownloadCount": 63699,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.1/latestUnofficial.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.1/latestUnofficial.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.1/latestUnofficial.zip"
+        "LastUpdate": 1777852470,
+        "DownloadCount": 68205,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.2/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.2/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.2/latestUnofficial.zip"
     },
     {
         "Author": "Asriel",
@@ -115,7 +115,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1743231407,
-        "DownloadCount": 4063,
+        "DownloadCount": 4064,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.9.0.1/latestUnofficial.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.9.0.1/latestUnofficial.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/ItemIcons/releases/download/0.9.0.1/latestUnofficial.zip"
