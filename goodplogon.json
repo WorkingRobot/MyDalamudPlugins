@@ -3,7 +3,7 @@
         "Author": "Asriel",
         "Name": "Craftimizer (Unofficial)",
         "InternalName": "CraftimizerUnofficial",
-        "AssemblyVersion": "2.10.0.1",
+        "AssemblyVersion": "2.11.0.0",
         "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started!",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/WorkingRobot/Craftimizer",
@@ -37,11 +37,11 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1780337138,
-        "DownloadCount": 2487248,
-        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.10.0.1/latestUnofficial.zip",
-        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.10.0.1/latestUnofficial.zip",
-        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.10.0.1/latestUnofficial.zip"
+        "LastUpdate": 1780541927,
+        "DownloadCount": 2487494,
+        "DownloadLinkInstall": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.11.0.0/latestUnofficial.zip",
+        "DownloadLinkUpdate": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.11.0.0/latestUnofficial.zip",
+        "DownloadLinkTesting": "https://github.com/WorkingRobot/Craftimizer/releases/download/2.11.0.0/latestUnofficial.zip"
     },
     {
         "Author": "Asriel",
@@ -81,7 +81,7 @@
         "IsHide": false,
         "IsTestingExclusive": false,
         "LastUpdate": 1777852470,
-        "DownloadCount": 68296,
+        "DownloadCount": 68298,
         "DownloadLinkInstall": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.2/latestUnofficial.zip",
         "DownloadLinkUpdate": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.2/latestUnofficial.zip",
         "DownloadLinkTesting": "https://github.com/WorkingRobot/Waitingway/releases/download/2.4.2/latestUnofficial.zip"
