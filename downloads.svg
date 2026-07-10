@@ -543,7 +543,7 @@ z
    </g>
    <g id="FillBetweenPolyCollection_1">
     <defs>
-     <path id="m2a49f7429d" d="M 49.997945 -39.812178 
+     <path id="mfaf1bc1d03" d="M 49.997945 -39.812178 
 L 49.997945 -130.11607 
 L 62.029749 -258.925947 
 L 74.061553 -165.172244 
@@ -574,7 +574,7 @@ L 362.82484 -40.015109
 L 374.856644 -54.017285 
 L 386.888447 -56.401714 
 L 398.920251 -53.154832 
-L 410.952055 -39.812178 
+L 410.952055 -39.862911 
 L 410.952055 -39.812178 
 L 410.952055 -39.812178 
 L 398.920251 -39.812178 
@@ -611,7 +611,7 @@ z
 " style="stroke: #08f7fe; stroke-opacity: 0.1"/>
     </defs>
     <g clip-path="url(#p765c8b8931)">
-     <use xlink:href="#m2a49f7429d" x="0" y="288" style="fill: #08f7fe; fill-opacity: 0.1; stroke: #08f7fe; stroke-opacity: 0.1"/>
+     <use xlink:href="#mfaf1bc1d03" x="0" y="288" style="fill: #08f7fe; fill-opacity: 0.1; stroke: #08f7fe; stroke-opacity: 0.1"/>
     </g>
    </g>
    <g id="FillBetweenPolyCollection_2">
@@ -864,7 +864,7 @@ L 362.82484 247.984891
 L 374.856644 233.982715 
 L 386.888447 231.598286 
 L 398.920251 234.845168 
-L 410.952055 248.187822 
+L 410.952055 248.137089 
 " clip-path="url(#p765c8b8931)" style="fill: none; stroke: #08f7fe; stroke-width: 1.5; stroke-linecap: round"/>
    </g>
    <g id="line2d_30">
