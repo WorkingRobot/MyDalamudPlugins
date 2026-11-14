@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           persist-credentials: false
       - name: Install System Dependencies
@@ -19,12 +19,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libjpeg-dev zlib1g-dev
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         id: setup-python
         with:
           python-version: 'pypy3.10'
       - name: Cache Python Environment
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         id: cache-venv
         with:
           path: ./.venv/
